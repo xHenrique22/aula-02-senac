@@ -1,0 +1,48 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+}
+
+.field {
+    border: 1px solid #fff;
+    padding: 30px;
+    align-items: center;
+    margin: 20px;
+    display: inline;
+    border-radius: 36px 35px 35px 10px;
+    -webkit-border-radius: 36px 35px 35px 10px;
+    -moz-border-radius: 36px 35px 35px 10px;
+}
+
+.legend {
+    color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+.cadastrar {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+}
+
+.inputUser {
+    border-radius: 10px;
+    ;
+}
+
+.inputtext {
+    color: #fff;
+}
+
+.submit-button {
+    justify-content: center;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+}
